@@ -1,26 +1,12 @@
 {
-    "name": "blueimp/jquery-file-upload"
-  , "description": "File Upload widget for jQuery."
+    "name": "bunkerdb/jquery-file-upload"
+  , "description": "File Upload server-side for jQuery."
   , "keywords": ["jquery",
         "file",
         "upload",
-        "widget",
-        "multiple",
-        "selection",
-        "drag",
-        "drop",
-        "progress",
-        "preview",
-        "cross-domain",
-        "cross-site",
-        "chunk",
-        "resume",
-        "gae",
-        "go",
-        "python",
         "php",
         "bootstrap"]
-  , "homepage": "https://github.com/blueimp/jQuery-File-Upload"
+  , "homepage": "https://github.com/bunkerdb/jQuery-File-Upload"
   , "authors": [
       {
         "name": "Sebastian Tschan",
@@ -31,4 +17,7 @@
       "forum": "https://groups.google.com/forum/#!forum/jquery-fileupload"
     }
   , "license": "MIT"
+  , "autoload":{
+      "files": ["vendor/jQuery-File-Upload/server/php/UploadHandler.php"]
+  }
 }
