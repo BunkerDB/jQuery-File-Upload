@@ -18,6 +18,6 @@
     }
   , "license": "MIT"
   , "autoload":{
-      "files": ["vendor/jQuery-File-Upload/server/php/UploadHandler.php"]
+      "files": ["server/php/UploadHandler.php"]
   }
 }
